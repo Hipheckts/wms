@@ -58,11 +58,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/#about">About</a></li>
-                                    <li><a href="/#services">Services</a></li>
-                                    <li><a href="maintenance-and-subscriptions.html#packages">Maintenance Packages</a></li>
-                                    <li><a href="/#contact">Contact</a></li>
+                                    <li class="nav-item"><a href="/">Home</a></li>
+                                    <li class="nav-item"><a href="/#about">About</a></li>
+                                    <li class="nav-item"><a href="/#services">Services</a></li>
+                                    <li class="nav-item"><a href="maintenance-and-subscriptions.html#packages">Maintenance Packages</a></li>
+                                    <li class="nav-item"><a href="/#contact">Contact</a></li>
                                     <!-- <li><a href="elements.html">Elements</a></li> -->
                                 </ul>
                             </div>
@@ -121,10 +121,60 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+            
+
+            <div class="row justify-content-center accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+                <!-- single accordian area -->
+                <div class="panel single-accordion card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                    <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">GOLD SUBSCRIPTION
+                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a></h6>
+                    <div id="collapseOne" class="accordion-content collapse">
+                        <p>Our Gold maintenance plan is the most comprehensive option, tailored to meet the diverse needs of worship organizations.<br/><br/>
+                            <b>Included:</b> Annual on-site maintenance visit<br/>
+                            <b>Included:</b> One annual on-site callout or training session<br/>
+                            Enjoy a 25% discount on additional on-site callouts or training sessions<br/>
+                            Benefit from remote dial-in support (network dependent)<br/>
+                            Access telephone and email support during business hours<br/>
+                            Guaranteed response within 3 business days</p>
+                    </div>
+                </div>
+
+                <div class="panel single-accordion card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                    <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">SILVER SUBSCRIPTION
+                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a></h6>
+                    <div id="collapseTwo" class="accordion-content collapse">
+                        <p>With our Silver maintenance plan, you can count on reliable support and maintenance.<br/>
+                            <b>Included:</b> Annual on-site maintenance visit<br/><br/>
+                            Get a 25% discount on on-site callouts or training sessions<br/>
+                            Access remote dial-in support (network dependent)<br/>
+                            Enjoy telephone and email support during business hours<br/>
+                            Guaranteed response within 5 business days</p>
+                    </div>
+                </div>
+
+                <div class="panel single-accordion card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                    <h6><a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">BRONZE SUBSCRIPTION
+                            <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                            <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                            </a></h6>
+                    <div id="collapseThree" class="accordion-content collapse">
+                        <p>Our Bronze maintenance plan offers essential support and maintenance options to enhance your worship media experience.
+                            Benefit from a 25% discount on the annual on-site maintenance visit<br/><br/>
+                            Receive a 10% discount on on-site callouts or training sessions<br/>
+                            Access remote dial-in support (network dependent)<br/>
+                            Enjoy telephone and email support during business hours<br/>
+                            Guaranteed response within 5 business days</p>
+                    </div>
+                </div>
 
                 <!-- Single Subscription Card -->
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                <!-- <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
                     <div class="single-album-area wow fadeInUp m-4" data-wow-delay="200ms">
                         <div class="album-thumb">
                             <img src="img/bg-img/aud.jpeg" alt="">
@@ -140,11 +190,11 @@
                                     Guaranteed response within 3 business days</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
                 <!-- Single Subscription Card -->
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                <!-- <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
                     <div class="single-album-area wow fadeInUp m-4" data-wow-delay="200ms">
                        <div class="album-thumb">
                             <img src="img/bg-img/aud.jpeg" alt="">
@@ -159,11 +209,11 @@
                                     Guaranteed response within 5 business days</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
                 <!-- Single Subscription Card -->
-                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                <!-- <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
                     <div class="single-album-area wow fadeInUp m-4" data-wow-delay="200ms">
                        <div class="album-thumb">
                             <img src="img/bg-img/aud.jpeg" alt="">
@@ -178,7 +228,7 @@
                                     Guaranteed response within 5 business days</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
@@ -253,10 +303,19 @@
                 <a href="#"><img src="img/core-img/logo.png" alt=""></a>
                 <p class="copywrite-text"><a href="#">
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Worship Media Solutions</p>
+            </div><div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="https://youtube.com/WorshipMediaSLX"><img src="https://pngimg.com/d/youtube_PNG102349.png" width="42"/></a></li>
+                            <li><a href="https://instagram.com/WorshipMediaSLX"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="28"/></a></li>
+                            <li><a href="https://facebook.com/WorshipMediaSLX"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="28"/></a></li>
+                            <li><a href="https://twitter.com/WorshipMediaSLX"><img src="https://i0.wp.com/openvisualfx.com/wp-content/uploads/2019/10/pnglot.com-twitter-bird-logo-png-139932.png?fit=2186%2C2187&ssl=1" width="28"/></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <!-- ##### Footer Area Start ##### -->
 
     <!-- ##### All Javascript Script ##### -->

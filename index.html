@@ -24,7 +24,6 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -58,11 +57,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#services">Services</a></li>
-                                    <li><a href="maintenance-and-subscriptions.html#packages">Maintenance Packages</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li class="nav-item"><a href="/">Home</a></li>
+                                    <li class="nav-item"><a href="#about">About</a></li>
+                                    <li class="nav-item"><a href="#services">Services</a></li>
+                                    <li class="nav-item"><a href="maintenance-and-subscriptions.html#packages">Maintenance Packages</a></li>
+                                    <li class="nav-item"><a href="#contact">Contact</a></li>
                                     <!-- <li><a href="elements.html">Elements</a></li> -->
                                 </ul>
                             </div>
@@ -88,7 +87,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Audio<span>Engineering</span></h2>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Audio<span>Audio</span></h2>
                                 <a data-animation="fadeInUp" data-delay="500ms" href="#services" class="btn oneMusic-btn mt-50">See More <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -105,7 +104,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Lighting<span>Transformation</span></h2>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Lighting<span>Lighting</span></h2>
                                 <a data-animation="fadeInUp" data-delay="500ms" href="#services" class="btn oneMusic-btn mt-50">See More <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -117,13 +116,13 @@
             <!-- Single Hero Slide -->
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
                 <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-3.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-3.png);"></div>
                 <!-- Slide Content -->
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="hero-slides-content text-center">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Visuals<span>Multimedia</span></h2>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Visuals<span>Visuals</span></h2>
                                 <a data-animation="fadeInUp" data-delay="500ms" href="#services" class="btn oneMusic-btn mt-50">See More <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -135,35 +134,73 @@
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### About Area Start ##### -->
-    <section id="about" class="latest-albums-area section-padding-100">
+    <section id="about" class="section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(img/bg-img/best.jpeg);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading style-2">
-                        <p>About</p>
-                        <h2>Worship Media Solutions</h2>
+                        <p style="color: white!important;">About</p>
+                        <h2 style="color: white!important;">Worship Media Solutions</h2>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center p-4" style="margin-top: -100px;">
                 <div class="col-12 col-lg-9">
-                    <div class="ablums-text mb-10">
+                    <div class="ablums-info mb-10 text-center">
+                        <p style="color: white!important;">At Worship Media Solutions, we're more than just a team of professionals – we are a passionate community of experienced individuals dedicated to elevating audio, video, and lighting experiences to extraordinary heights for the greater advancement of the gospel of Jesus Christ.
+                    </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                       <div class="album-thumb">
+                            <!-- <img src="img/bg-img/aud.jpeg" alt=""> -->
+                        </div>
+                        <div class="album-info text-center">
+                                <h5>Our Journey</h5><br/><br/>
+                                <p>
+                                    <!-- With extensive experience and a heart devoted to worship, we have had the privilege of working with numerous churches, both within and outside the UK.  -->
+                                    Our highly experienced professionals have worked with renowned Christian music ministers such as Pastor Nathaniel Bassey, Pastor Victoria Orenze, Doc Tim Godfrey, Onos Ariyo, Calledout Music, Limoblaze, Tomi Favored, and many more. This rich tapestry of experience has equipped us to serve you better.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                       <div class="album-thumb">
+                            <!-- <img src="img/bg-img/aud.jpeg" alt=""> -->
+                        </div>
+                        <div class="album-info text-center">
+                                <h5>Our Commitment</h5><br/><br/>
+                                <p>
+                                    At Worship Media Solutions, we are unwaveringly committed to turning your vision into a reality. We believe in the divine call to operate in a spirit of excellence, a principle rooted in Colossians 3:23 and 1 Corinthians 14:40. For us, excellence signifies diligence, integrity, and wholehearted dedication in everything we do.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                       <div class="album-thumb">
+                            <!-- <img src="img/bg-img/aud.jpeg" alt=""> -->
+                        </div>
+                        <div class="album-info text-center">
+                                <h5>Our Purpose</h5><br/><br/>
+                                <p>Everything we are and everything we offer is centred on the glorification of the Almighty God, as expressed in Psalm 34:3. We believe that by providing exceptional audio, video, and lighting solutions, we contribute to the magnification of God's glory through worship.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-lg-9">
+                    <div class="ablums-text mb-10 text-center">
+                        <br/><br/>
                         <p>At Worship Media Solutions, we're more than just a team of professionals – we are a passionate community of experienced individuals dedicated to elevating audio, video, and lighting experiences to extraordinary heights for the greater advancement of the gospel of Jesus Christ.
-                            <br/><br/>
-                            <b>Our journey:</b>
-                            With extensive experience and a heart devoted to worship, we have had the privilege of working with numerous churches, both within and outside the UK. Our highly experienced professionals have worked with renowned Christian music ministers such as Pastor Nathaniel Bassey, Pastor Victoria Orenze, Doc Tim Godfrey, Onos Ariyo, Calledout Music, Limoblaze, Tomi Favored, and many more. This rich tapestry of experience has equipped us to serve you better.
-                             <br/><br/>
-                            <b>Our Commitment:</b>
-                            At Worship Media Solutions, we are unwaveringly committed to turning your vision into a reality. We believe in the divine call to operate in a spirit of excellence, a principle rooted in Colossians 3:23 and 1 Corinthians 14:40. For us, excellence signifies diligence, integrity, and wholehearted dedication in everything we do.
-                             <br/><br/>
-                            <b>Our Purpose:</b>
-                            Everything we are and everything we offer is centred on the glorification of the Almighty God, as expressed in Psalm 34:3. We believe that by providing exceptional audio, video, and lighting solutions, we contribute to the magnification of God's glory through worship.
-                             <br/>
                             As a team, we are excited and honoured to serve your worship media needs. Our mission is to be an instrumental part of your journey, ensuring that the technical aspects of worship are seamless and divine, allowing you to focus on spreading the message of hope, love, and salvation. Together, we aim to create unforgettable worship experiences that draw people closer to God. Welcome to Worship Media Solutions – where your worship vision becomes a heavenly reality.
                              <br/><br/>
                             Get in touch with us today.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -193,7 +230,7 @@
                         </div>
                         <div class="album-info text-center">
                             <a href="audio.html">
-                                <h5>AUDIO ENGINEERING</h5>
+                                <h5>AUDIO</h5>
                             </a>
                         </div>
                     </div>
@@ -393,6 +430,16 @@
                     <a href="#"><img src="img/core-img/logo.png" alt=""></a>
                     <p class="copywrite-text"><a href="#">
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Worship Media Solutions</p>
+                </div>
+            <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="https://youtube.com/WorshipMediaSLX"><img src="https://pngimg.com/d/youtube_PNG102349.png" width="42"/></a></li>
+                            <li><a href="https://instagram.com/WorshipMediaSLX"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="28"/></a></li>
+                            <li><a href="https://facebook.com/WorshipMediaSLX"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="28"/></a></li>
+                            <li><a href="https://twitter.com/WorshipMediaSLX"><img src="https://i0.wp.com/openvisualfx.com/wp-content/uploads/2019/10/pnglot.com-twitter-bird-logo-png-139932.png?fit=2186%2C2187&ssl=1" width="28"/></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
