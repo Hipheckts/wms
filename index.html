@@ -1,5 +1,7 @@
-<html>
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8" />
     <title>Worship Media Solutions</title>
     <meta name="description" content="Worship Media Solutions" />
@@ -19,33 +21,402 @@
   <meta property="og:image:height" content="400" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary_large_image">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-     <style>
-     html{
-         overflow: hidden;
-     }
-         .center-screen {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              text-align: center;
-              min-height: 90vh;
-            }
-     </style>
- </head>
- <body>
- <div class="center-screen">
-     
-     <div class="row">
-         <div class="col-6">
-             <img src="./assets/img/logo.png" width="340px"/>
-         </div>
-         <!-- <div class="col-6">
-             <img src="./assets/img/wms.jpg" style="margin-top: 30px" width="120px"/>
-         </div> -->
-     </div>
- </div>
- </body>
- </html>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <!-- Nav brand -->
+                        <a href="/" class="nav-brand"><img src="assets/img/logo-w.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    <!-- <li><a href="elements.html">Elements</a></li> -->
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Audio<span>Engineering</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#services" class="btn oneMusic-btn mt-50">See More <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Lighting<span>Transformation</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#services" class="btn oneMusic-btn mt-50">See More <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-3.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Visuals<span>Multimedia</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#services" class="btn oneMusic-btn mt-50">See More <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### About Area Start ##### -->
+    <section id="about" class="latest-albums-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <p>About</p>
+                        <h2>Worship Media Solutions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-9">
+                    <div class="ablums-text mb-10">
+                        <p>At Worship Media Solutions, we're more than just a team of professionals – we are a passionate community of experienced individuals dedicated to elevating audio, video, and lighting experiences to extraordinary heights for the greater advancement of the gospel of Jesus Christ.
+                            <br/><br/>
+                            <b>Our journey:</b>
+                            With extensive experience and a heart devoted to worship, we have had the privilege of working with numerous churches, both within and outside the UK. Our highly experienced professionals have worked with renowned Christian music ministers such as Pastor Nathaniel Bassey, Pastor Victoria Orenze, Doc Tim Godfrey, Onos Ariyo, Calledout Music, Limoblaze, Tomi Favored, and many more. This rich tapestry of experience has equipped us to serve you better.
+                             <br/><br/>
+                            <b>Our Commitment:</b>
+                            At Worship Media Solutions, we are unwaveringly committed to turning your vision into a reality. We believe in the divine call to operate in a spirit of excellence, a principle rooted in Colossians 3:23 and 1 Corinthians 14:40. For us, excellence signifies diligence, integrity, and wholehearted dedication in everything we do.
+                             <br/><br/>
+                            <b>Our Purpose:</b>
+                            Everything we are and everything we offer is centred on the glorification of the Almighty God, as expressed in Psalm 34:3. We believe that by providing exceptional audio, video, and lighting solutions, we contribute to the magnification of God's glory through worship.
+                             <br/>
+                            As a team, we are excited and honoured to serve your worship media needs. Our mission is to be an instrumental part of your journey, ensuring that the technical aspects of worship are seamless and divine, allowing you to focus on spreading the message of hope, love, and salvation. Together, we aim to create unforgettable worship experiences that draw people closer to God. Welcome to Worship Media Solutions – where your worship vision becomes a heavenly reality.
+                             <br/><br/>
+                            Get in touch with us today.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### About Area End ##### -->
+
+    <!-- ##### Our Services Area Start ##### -->
+    <section id="services" class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <p>Services</p>
+                        <h2>What we Do!</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Service Card -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="audio.html">
+                            <img src="img/bg-img/aud.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="audio.html">
+                                <h5>AUDIO ENGINEERING</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Service Card -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="visual.html">
+                            <img src="img/bg-img/vid.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="visual.html">
+                                <h5>VISUALS</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Service Card -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="lighting.html">
+                            <img src="img/bg-img/light.png" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="lighting.html">
+                                <h5>LIGHTING</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Service Card -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="livestreaming.html">
+                            <img src="img/bg-img/live.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="livestreaming.html">
+                                <h5>LIVESTREAMING</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Service Card -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="consultation-and-design.html">
+                            <img src="img/bg-img/consult.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="consultation-and-design.html">
+                                <h5>CONSULTATION AND DESIGN</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Service Card -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="installations.html">
+                            <img src="img/bg-img/install.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="installations.html">
+                                <h5>INSTALLATIONS</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Service Card -->
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <a href="training.html">
+                            <img src="img/bg-img/train.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="album-info text-center">
+                            <a href="training.html">
+                                <h5>TRAINING</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Service Card -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                   <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                       <div class="album-thumb">
+                           <a href="maintenance-and-subscriptions.html">
+                            <img src="img/bg-img/repair.jpeg" alt="">
+                            </a>
+                       </div>
+                       <div class="album-info text-center">
+                           <a href="maintenance-and-subscriptions.html">
+                               <h5>MAINTENANCE</h5>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Our Services Area End ##### -->
+
+    <!-- ##### Featured Artist Area Start ##### -->
+    <section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(img/bg-img/best.jpeg);">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-12 col-md-5 col-lg-4">
+                    <div class="featured-artist-thumb">
+                        <img src="img/bg-img/team.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 mb-4">
+                    <div class="featured-artist-content">
+                        <!-- Section Heading -->
+                        <div class="section-heading white text-left mb-30">
+                        <h2>Our Promise</h2>
+                        </div>
+                        <p>At Worship Media Solutions, we are dedicated to enhancing your worship services through expert audio, visuals, lighting, and live streaming solutions that create a truly immersive and inclusive worship experience.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Featured Artist Area End ##### -->
+
+
+    <!-- ##### Contact Area Start ##### -->
+    <section id="contact" class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading white wow fadeInUp" data-wow-delay="100ms">
+                        <p>Contact</p>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="100ms">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="200ms">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="300ms">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="400ms">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
+                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                    <p class="copywrite-text"><a href="#">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Worship Media Solutions</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
